@@ -142,7 +142,7 @@
         triggers-per-rotation = <20>;
     };
 
-    physical_layout0: physical_layout_0 { // First physical layout, use different naming for other layouts
+    initial_physical_layout0: initial_layout_0 { // First physical layout, use different naming for other layouts
         compatible = "zmk,physical-layout";
         display-name = "Default Layout";
         kscan = <&kscan_composite>; // Label of the kscan node, optional if all layouts use the same
@@ -200,9 +200,9 @@
             ;
     };
 
-    physical_layouthummingbird: physical_layout_hummingbird { // First physical layout, use different naming for other layouts
+    physical_layout0: physical_layout_0 {
         compatible = "zmk,physical-layout";
-        display-name = "Default Layout";
+        display-name = "Hummingbird Layout";
         kscan = <&kscan_composite>; // Label of the kscan node, optional if all layouts use the same
         transform = <&default_transform>; // Label of the matrix transform for this layout
         keys  //                     w   h    x    y     rot    rx    ry
