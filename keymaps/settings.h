@@ -13,7 +13,7 @@
 // #define KB_LAYOUT_BEPO
 // #define KB_LAYOUT_BEPOLAR
 // #define KB_LAYOUT_DVORAK
-// #define KB_LAYOUT_ERGOL
+#define KB_LAYOUT_ERGOL
 // #define KB_LAYOUT_ERGLACE
 // #define KB_LAYOUT_QWERTY_INTL
 // #define KB_LAYOUT_QWERTY_LAFAYETTE
@@ -22,7 +22,7 @@
 // Uncomment one of the following lines if using a non-Windows host:
 
 // #define MACOS
-// #define LINUX
+#define LINUX
 
 // [Experimental]
 // Uncomment one of the following lines to enable layout emulation:
@@ -35,7 +35,7 @@
 // Uncomment the following line for an improved dead key support;
 // (only applies to some Hummingbird keymaps and layout emulations)
 
-// #define ENABLE_FANCY_DEAD_KEYS
+#define ENABLE_FANCY_DEAD_KEYS
 
 
 /******************************************************************************
