@@ -103,3 +103,5 @@
 // Beware: this increases the typing load of the left thumb.
 
 // #define LEFT_HAND_SPACE
+
+#define HUMMINGBIRD
