@@ -148,21 +148,21 @@
         kscan = <&kscan_composite>; // Label of the kscan node, optional if all layouts use the same
         transform = <&default_transform>; // Label of the matrix transform for this layout
         keys  //                     w   h    x    y     rot    rx    ry
-            = <&key_physical_attrs 100 100    0  115      0      0     0>
-            , <&key_physical_attrs 100 100  100   95      0      0     0>
+            = <&key_physical_attrs  10  10    0 1400     0      0     0>
+            , <&key_physical_attrs  10  10   15 1400     0      0     0>
             , <&key_physical_attrs 100 100  200   35    900    100   325>
             , <&key_physical_attrs 100 100  300    0   1500    170   310>
             , <&key_physical_attrs 100 100  400   25   1500    170   310>
-            , <&key_physical_attrs 100 100  500   45   1500    170   310>
+            , <&key_physical_attrs  10  10  30  1400   1500    170   310>
 
-            , <&key_physical_attrs 100 100  770   45 (-1500)  1200   310>
+            , <&key_physical_attrs  10  10   45 1400 (-1500)  1200   310>
             , <&key_physical_attrs 100 100  870   25 (-1500)  1200   310>
             , <&key_physical_attrs 100 100  970    0 (-1500)  1200   310>
             , <&key_physical_attrs 100 100 1070   35  (-900)  1250   325>
-            , <&key_physical_attrs 100 100 1170   95      0      0     0>
-            , <&key_physical_attrs 100 100 1270  115      0      0     0>
+            , <&key_physical_attrs  10  10   60 1400      0      0     0>
+            , <&key_physical_attrs  10  10   75 1400      0      0     0>
 
-            , <&key_physical_attrs 100 100    0  215      0      0     0>
+            , <&key_physical_attrs  10  10   90  1400     0      0     0>
             , <&key_physical_attrs 100 100  100  195      0      0     0>
             , <&key_physical_attrs 100 100  200  135    900    100   325>
             , <&key_physical_attrs 100 100  300  100   1500    170   310>
@@ -174,9 +174,9 @@
             , <&key_physical_attrs 100 100  970  100 (-1500)  1200   310>
             , <&key_physical_attrs 100 100 1070  135  (-900)  1250   325>
             , <&key_physical_attrs 100 100 1170  195      0      0     0>
-            , <&key_physical_attrs 100 100 1270  215      0      0     0>
+            , <&key_physical_attrs  10  10  105  1400     0      0     0>
 
-            , <&key_physical_attrs 100 100    0  315      0      0     0>
+            , <&key_physical_attrs  10  10  120 1400      0      0     0>
             , <&key_physical_attrs 100 100  100  295      0      0     0>
             , <&key_physical_attrs 100 100  200  235    900    100   325>
             , <&key_physical_attrs 100 100  300  200   1500    170   310>
@@ -188,7 +188,7 @@
             , <&key_physical_attrs 100 100  970  200 (-1500)  1200   310>
             , <&key_physical_attrs 100 100 1070  235  (-900)  1250   325>
             , <&key_physical_attrs 100 100 1170  295      0      0     0>
-            , <&key_physical_attrs 100 100 1270  315      0      0     0>
+            , <&key_physical_attrs  10  10  135 1400      0      0     0>
 
             , <&key_physical_attrs 100 100  400  355   1500    170   310>
             , <&key_physical_attrs 100 100  500  355   3100    330   400>
