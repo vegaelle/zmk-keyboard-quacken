@@ -20,7 +20,7 @@
       display-name = "Base";
       bindings = <
         &kp TAB    &kp Q  &kp W  &kp E  &kp R  &kp T        &kp Y  &kp U  &kp I     &kp O   &kp P      &kp BACKSPACE
-        &kp ESCAPE HRM_A  HRM_S  HRM_D  HRM_F  &kp G        &kp H  HRM_J  HRM_K     HRM_L   HRM_SEMI   &kp ENTER
+        &kp ESCAPE HRM_A  HRM_S  HRM_D  HRM_F  &kp G        HRM_H  HRM_J  HRM_K     HRM_L   HRM_SEMI   &kp ENTER
         &kp LSHIFT &kp Z  &kp X  &kp C  &kp V  &kp B        &kp N  &kp M  &kp COMMA &kp DOT &kp FSLH   &kp RSHIFT
                 LTHUMB_TUCK  LTHUMB_HOME  LTHUMB_REACH    RTHUMB_REACH  RTHUMB_HOME  RTHUMB_TUCK
       >;
@@ -93,6 +93,18 @@
     //                  -- could be completed with other rare keys
     fn_media_layer: fn_media_layer {
       display-name = "FnMedia";
+      bindings = <
+        &trans  &kp F1  &kp F2  &kp F3  &kp F4  &none         &none  &kp C_PREV  &kp C_VOL_UP  &kp C_BRI_UP   &kp SLCK      &trans
+        &trans  &kp F5  &kp F6  &kp F7  &kp F8  &none         &none  H_J C_PP    H_K C_MUTE    H_L C_AL_LOCK  H_SEMI PSCRN  &trans
+        &trans  &kp F9  &kp F10 &kp F11 &kp F12 &none         &none  &kp C_NEXT  &kp C_VOL_DN  &kp C_BRI_DN   &kp INS       &trans
+                                &trans  &trans  &bootloader   &sys_reset  &trans  &studio_unlock
+      >;
+    };
+
+    // 7. Gaming layer  -- an emulated QWERTY layout on Ergo-L, shifted one time to the right,
+    //                  -- so the traditional WASD stays on the natural finger position.
+    gaming_layer: gaming_layer {
+      display-name = "Gaming";
       bindings = <
         &trans  &kp F1  &kp F2  &kp F3  &kp F4  &none         &none  &kp C_PREV  &kp C_VOL_UP  &kp C_BRI_UP   &kp SLCK      &trans
         &trans  &kp F5  &kp F6  &kp F7  &kp F8  &none         &none  H_J C_PP    H_K C_MUTE    H_L C_AL_LOCK  H_SEMI PSCRN  &trans
